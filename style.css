@@ -1,6 +1,28 @@
 /* nav ul ul  {
 position: absolute;
 } */
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+.dropdown-menu113 li a {
+    /* color:red !important; */
+    
+    /* font-family:"Montserrat",Helvetica,Arial,sans-serif !important; */
+  
+   font-weight: bolder;
+
+}
+.dropdown-menu>li>a { 
+    /* color:red; */
+    font-weight: bolder;
+    font-size: 12px !important;
+    font-family: 'Hind', sans-serif;
+    padding: 8px 20px;
+}
+a {
+    font-family: 'Hind', sans-serif;
+
+}
+
 .menu-btn1 ul{
     border:1px solid rgb(235, 234, 234);
     margin-left: 172px;
@@ -13,18 +35,18 @@ position: absolute;
     margin-top: -35px;
   
 }
-.menu-btn3 {
+/* .menu-btn3 {
     border: 1px solid red;
-}
+} */
 
 .menu-btn3 ul{
-    border:1px solid rgb(209, 37, 37);
+    /* border:1px solid rgb(209, 37, 37); */
     margin-left: 172px;
     margin-top: -35px;
   
 }
 .menu-btn13 ul{
-    border:1px solid rgb(149, 27, 27);
+    /* border:1px solid rgb(149, 27, 27); */
     margin-left: 12px;
     margin-top: -35px;
   
@@ -426,7 +448,9 @@ td,th{
 }
 @media (max-width:768px){
     
-   
+   .icons {
+       display:none !important;
+   }
     li a .fa {
         font-weight: 900;
         font-size:15px;
